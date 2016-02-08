@@ -1,0 +1,9 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: install sourcetree
+      mac_pkg: pkg_type=app
+               url=https://downloads.atlassian.com/software/sourcetree/SourceTree_2.1.dmg
+               archive_type=dmg archive_path=SourceTree.app
+      sudo: yes
