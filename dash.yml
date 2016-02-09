@@ -1,0 +1,9 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: install dash
+      mac_pkg: pkg_type=app
+               url=https://london.kapeli.com/downloads/v3/Dash.zip
+               archive_type=zip archive_path='Dash.app'
+      sudo: yes

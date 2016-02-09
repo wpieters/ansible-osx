@@ -3,7 +3,7 @@
 
   tasks:
     - name: install docker-toolbox
-      mac_pkg: pkg_name=com.docker.DockerToolbox pkg_version=1.0
+      mac_pkg: pkg_name=io.docker.pkg.docker pkg_version=1.10.0
                url=https://github.com/docker/toolbox/releases/download/v1.10.0/DockerToolbox-1.10.0.pkg
       sudo: yes
 
